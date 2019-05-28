@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+}
+
+ /*Header start*/
+.header-container {
+    height: 80px;
+    padding: 0 64px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation {
+    height: 100%;
+    background-color: rgb(247, 3, 3);
+    min-width: 50%;
+}
+
+.advanced-navigation {
+    height: 100%;
+    background-color: rgb(53, 23, 23);
+    min-width: 30%;
+}
+ /*Header end*/
+
+  /*Main start*/
+.content-container {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 64px;
+}
+
+.block {
+    width: 100%;
+}
+
+.tagline {
+    height: 480px; /*Временное свойство*/
+    background-color:#456564;
+}
+
+.three-buttons {
+    height: 584px; /*Временное свойство*/
+    background-color:#0105fc;
+    display: flex;
+}
+
+.button {
+    height: 100%;
+    width: 33.33%;
+    background-color: #01c1fc
+}
+
+.progress {
+    height: 352px; /*Временное свойство*/
+    background-color:#fc01ef;
+    display: flex;
+}
+
+.progress-element {
+    height: 100%;
+    width: 25%;
+}
+
+.quote-container {
+    height: 584px; /*Временное свойство*/
+    background-color:#48fc01;
+    display: flex;
+}
+
+.quote {
+    height: 100%;
+    min-width: 416px;
+    width: 25%;
+}
+
+.quote-image {
+    height: 100%;
+    width: 75%;
+}
+
+.service-container {
+    height: 600px; /*Временное свойство*/
+    background-color:#fceb01;
+    display: flex;
+}
+
+.service-name {
+    height: auto;
+    width: 25%;
+    padding: 112px 0;
+}
+
+.service {
+    height: auto;
+    width: calc(25% - 32px);
+    padding: 112px 0;
+    margin-left: 32px;
+}
+
+.news-container {
+    height: 296px; /*Временное свойство*/
+    background-color:#0183fc;
+    display: flex;
+}
+
+.news-image, .news-one {
+    height: 100%;
+    width: 50%;
+}
+
+.comment-container {
+    height: 296px; /*Временное свойство*/
+    background-color:#fc014c;
+    margin-bottom: 160px;
+    display: flex;
+}
+
+.comment, .comment-image {
+    height: 100%;
+    width: 50%;
+}
+/*Main end*/
+
+/*Footer start*/
+.footer-container {
+    height: 200px;
+    background-color: #312E49;
+}
+/*Footer end*/
