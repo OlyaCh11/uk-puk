@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: Montserrat;
 }
 
  /*Header start*/
@@ -8,18 +9,46 @@ body {
     padding: 0 64px;
     display: flex;
     justify-content: space-between;
+    background-color:#fff
 }
 
 .navigation {
     height: 100%;
-    background-color: rgb(247, 3, 3);
-    min-width: 50%;
+    display: flex;
+}
+
+.nav-logo, .nav-logo img {
+    height: 100%;
+}
+
+.nav-link {
+    margin: 32px 0 0 32px;
+    text-decoration: none;
+    color: #4F4F4F;
+    font-size: 16px;
+    transition: color 300ms;
+}
+
+.nav-link:hover {
+    color: #2DB3CE;
+    font-weight: 600;
 }
 
 .advanced-navigation {
     height: 100%;
-    background-color: rgb(53, 23, 23);
-    min-width: 30%;
+    display: flex;
+}
+
+.home-select {
+    margin-top: 32px;
+    border: none;
+    font-family: Montserrat;
+    color: #4F4F4F;
+    font-size: 16px;
+}
+
+.home-select:focus {
+    outline: none;
 }
  /*Header end*/
 
